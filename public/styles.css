@@ -1,0 +1,100 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#main-section {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 40%;
+}
+
+form {
+    width: 100%;
+}
+
+
+#thank-you {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-header {
+    color: #fff !important;
+    font-size: 2rem;
+    font-weight: 700;
+    height: fit-content;
+}
+
+.user-attribute:nth-child(1)::before {
+    content: "id";
+    margin-right: 2vw;
+    font-weight: 700;
+}
+
+.user-attribute:nth-child(2)::before {
+    content: "Full Name";
+    margin-right: 2vw;
+    font-weight: 700;
+}
+
+.user-attribute:nth-child(3)::before {
+    content: "Age";
+    margin-right: 2vw;
+    font-weight: 700;
+}
+
+.user-attribute:nth-child(4)::before {
+    content: "Date";
+    margin-right: 2vw;
+    font-weight: 700;
+}
+
+.user-attribute:nth-child(5)::before {
+    content: "Time of Visit";
+    margin-right: 2vw;
+    font-weight: 700;
+}
+
+.user-attribute:nth-child(6)::before {
+    content: "Assistor name";
+    margin-right: 2vw;
+    font-weight: 700;
+}
+
+.user-attribute:nth-child(7)::before {
+    content: "Comment";
+    margin-right: 2vw;
+    font-weight: 700;
+}
+
+@media (min-width: 200px) {
+    #main-section {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        width: 90%;
+    }
+}
+
+@media (min-width: 750px) {
+    #main-section {
+        width: 40%;
+    }
+} 
+
+
+.error-container { 
+    display: grid; 
+    place-items: center;
+    height: 100vh !important; 
+    width: 100% !important;
+}  
+
